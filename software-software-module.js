@@ -62993,6 +62993,8 @@ var LeadDetailComponent = /** @class */ (function () {
         this.isAddClicked = true;
         this.activityModalHeaderTitle = "Add Activity";
         this.isActivityNumberHidden = true;
+        this.isActivityLoadingSpinnerHidden = false;
+        this.isActivityContentHidden = true;
         this.listActivityUsers();
     };
     LeadDetailComponent.prototype.btnEditActivityClick = function (activityModalTemplate) {
@@ -63004,6 +63006,8 @@ var LeadDetailComponent = /** @class */ (function () {
         this.isAddClicked = false;
         this.activityModalHeaderTitle = "Edit Activity";
         this.isActivityNumberHidden = false;
+        this.isActivityLoadingSpinnerHidden = false;
+        this.isActivityContentHidden = true;
         this.listActivityUsers();
     };
     LeadDetailComponent.prototype.btnSaveActivityClick = function () {
