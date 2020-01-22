@@ -99,8 +99,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppSettings", function() { return AppSettings; });
 var AppSettings = /** @class */ (function () {
     function AppSettings() {
-        this.defaultAPIURLHost = "http://localhost:53129";
-        // public defaultAPIURLHost: string = "http://easyfiscrm-easyfis-api.azurewebsites.net";
+        // public defaultAPIURLHost: string = "http://localhost:53129";
+        this.defaultAPIURLHost = "http://easyfiscrm-easyfis-api.azurewebsites.net";
     }
     return AppSettings;
 }());
