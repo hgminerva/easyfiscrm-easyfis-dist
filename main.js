@@ -183,7 +183,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_router_activate__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app.router.activate */ "./src/app/app.router.activate.ts");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _software_software_route_reuse_strategy__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./software/software-route-reuse-strategy */ "./src/app/software/software-route-reuse-strategy.ts");
+
+
 
 
 
@@ -201,7 +205,7 @@ var AppModule = /** @class */ (function () {
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_11__["AppComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["BrowserModule"],
@@ -215,9 +219,10 @@ var AppModule = /** @class */ (function () {
             providers: [
                 _app_settings__WEBPACK_IMPORTED_MODULE_6__["AppSettings"],
                 _app_router_activate__WEBPACK_IMPORTED_MODULE_8__["AppRouterActivate"],
-                _angular_common__WEBPACK_IMPORTED_MODULE_9__["CurrencyPipe"]
+                _angular_common__WEBPACK_IMPORTED_MODULE_9__["CurrencyPipe"],
+                { provide: _angular_router__WEBPACK_IMPORTED_MODULE_10__["RouteReuseStrategy"], useClass: _software_software_route_reuse_strategy__WEBPACK_IMPORTED_MODULE_12__["SoftwareRouteReuseStrategy"] }
             ],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_11__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -261,6 +266,52 @@ var AppRouterActivate = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
     ], AppRouterActivate);
     return AppRouterActivate;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/software/software-route-reuse-strategy.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/software/software-route-reuse-strategy.ts ***!
+  \***********************************************************/
+/*! exports provided: SoftwareRouteReuseStrategy */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SoftwareRouteReuseStrategy", function() { return SoftwareRouteReuseStrategy; });
+var SoftwareRouteReuseStrategy = /** @class */ (function () {
+    function SoftwareRouteReuseStrategy() {
+        this.handlers = {};
+    }
+    SoftwareRouteReuseStrategy.prototype.shouldDetach = function (route) {
+        return true;
+    };
+    SoftwareRouteReuseStrategy.prototype.store = function (route, handle) {
+        switch (route.routeConfig.path) {
+            case 'trn/lead/detail/:id': break;
+            case 'trn/sales/detail/:id': break;
+            case 'trn/support/detail/:id': break;
+            default: {
+                this.handlers[route.routeConfig.path] = handle;
+                break;
+            }
+        }
+    };
+    SoftwareRouteReuseStrategy.prototype.shouldAttach = function (route) {
+        return !!route.routeConfig && !!this.handlers[route.routeConfig.path];
+    };
+    SoftwareRouteReuseStrategy.prototype.retrieve = function (route) {
+        if (!route.routeConfig)
+            return null;
+        return this.handlers[route.routeConfig.path];
+    };
+    SoftwareRouteReuseStrategy.prototype.shouldReuseRoute = function (future, curr) {
+        return future.routeConfig === curr.routeConfig;
+    };
+    return SoftwareRouteReuseStrategy;
 }());
 
 
