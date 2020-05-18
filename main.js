@@ -99,8 +99,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppSettings", function() { return AppSettings; });
 var AppSettings = /** @class */ (function () {
     function AppSettings() {
-        // public defaultAPIURLHost: string = "http://localhost:53129";
-        this.defaultAPIURLHost = "http://easyfiscrm-easyfis-api.azurewebsites.net";
+        this.defaultAPIURLHost = "http://localhost:53129";
+        // public defaultAPIURLHost: string = "http://easyfiscrm-easyfis-api.azurewebsites.net";
     }
     return AppSettings;
 }());
@@ -210,9 +210,7 @@ var AppModule = /** @class */ (function () {
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_3__["BrowserAnimationsModule"],
-                ngx_toastr__WEBPACK_IMPORTED_MODULE_5__["ToastrModule"].forRoot({
-                // progressBar: true
-                }),
+                ngx_toastr__WEBPACK_IMPORTED_MODULE_5__["ToastrModule"].forRoot(),
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_7__["AppRoutingModule"]
             ],
