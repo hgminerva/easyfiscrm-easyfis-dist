@@ -228,8 +228,10 @@ var LoginComponent = /** @class */ (function () {
             this.loginService.login(this.loginModel.UserName, this.loginModel.Password);
             this.loginSub = this.loginService.loginObservable.subscribe(function (data) {
                 if (data[0]) {
-                    _this.router.navigate(['/software']);
-                    _this.toastr.success(data[1], 'Success');
+                    setTimeout(function () {
+                        _this.router.navigate(['/software']);
+                        _this.toastr.success(data[1], 'Success');
+                    }, 100);
                 }
                 else {
                     _this.toastr.error(data[1], 'Error');
