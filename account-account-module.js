@@ -231,7 +231,7 @@ var LoginComponent = /** @class */ (function () {
                     setTimeout(function () {
                         _this.router.navigate(['/software']);
                         _this.toastr.success(data[1], 'Success');
-                    }, 100);
+                    }, 300);
                 }
                 else {
                     _this.toastr.error(data[1], 'Error');
