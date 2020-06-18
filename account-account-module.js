@@ -107,7 +107,7 @@ var AccountModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FjY291bnQvbGF5b3V0L2xheW91dC5jb21wb25lbnQuY3NzIn0= */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvYWNjb3VudC9sYXlvdXQvbGF5b3V0LmNvbXBvbmVudC5jc3MifQ== */"
 
 /***/ }),
 
@@ -163,7 +163,7 @@ var LayoutComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "header.masthead {\r\n    position: relative;\r\n    background-color: #343a40;\r\n    background: url('coffee.jpg') no-repeat center center;\r\n    background-size: cover;\r\n    padding-top: 7rem;\r\n    padding-bottom: 7rem;\r\n    height: calc(100vh);\r\n  }\r\n  \r\n  header.masthead .overlay {\r\n    position: absolute;\r\n    background-color: #000000;\r\n    height: 100%;\r\n    width: 100%;\r\n    top: 0;\r\n    left: 0;\r\n    opacity: 0.6;\r\n  }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWNjb3VudC9sb2dpbi9sb2dpbi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUJBQW1CO0lBQ25CLDBCQUEwQjtJQUMxQixzREFBNkU7SUFJN0UsdUJBQXVCO0lBQ3ZCLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsb0JBQW9CO0dBQ3JCOztFQUVEO0lBQ0UsbUJBQW1CO0lBQ25CLDBCQUEwQjtJQUMxQixhQUFhO0lBQ2IsWUFBWTtJQUNaLE9BQU87SUFDUCxRQUFRO0lBQ1IsYUFBYTtHQUNkIiwiZmlsZSI6InNyYy9hcHAvYWNjb3VudC9sb2dpbi9sb2dpbi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaGVhZGVyLm1hc3RoZWFkIHtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMzNDNhNDA7XHJcbiAgICBiYWNrZ3JvdW5kOiB1cmwoXCIuLi8uLi8uLi9hc3NldHMvaW1nL2JnL2NvZmZlZS5qcGdcIikgbm8tcmVwZWF0IGNlbnRlciBjZW50ZXI7XHJcbiAgICAtd2Via2l0LWJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgICAtbW96LWJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgICAtby1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIHBhZGRpbmctdG9wOiA3cmVtO1xyXG4gICAgcGFkZGluZy1ib3R0b206IDdyZW07XHJcbiAgICBoZWlnaHQ6IGNhbGMoMTAwdmgpO1xyXG4gIH1cclxuICBcclxuICBoZWFkZXIubWFzdGhlYWQgLm92ZXJsYXkge1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzAwMDAwMDtcclxuICAgIGhlaWdodDogMTAwJTtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgdG9wOiAwO1xyXG4gICAgbGVmdDogMDtcclxuICAgIG9wYWNpdHk6IDAuNjtcclxuICB9Il19 */"
+module.exports = "header.masthead {\r\n    position: relative;\r\n    background-color: #343a40;\r\n    background: url('coffee.jpg') no-repeat center center;\r\n    background-size: cover;\r\n    padding-top: 7rem;\r\n    padding-bottom: 7rem;\r\n    height: calc(100vh);\r\n  }\r\n  \r\n  header.masthead .overlay {\r\n    position: absolute;\r\n    background-color: #000000;\r\n    height: 100%;\r\n    width: 100%;\r\n    top: 0;\r\n    left: 0;\r\n    opacity: 0.6;\r\n  }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9hY2NvdW50L2xvZ2luL2xvZ2luLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxtQkFBbUI7SUFDbkIsMEJBQTBCO0lBQzFCLHNEQUE2RTtJQUk3RSx1QkFBdUI7SUFDdkIsa0JBQWtCO0lBQ2xCLHFCQUFxQjtJQUNyQixvQkFBb0I7R0FDckI7O0VBRUQ7SUFDRSxtQkFBbUI7SUFDbkIsMEJBQTBCO0lBQzFCLGFBQWE7SUFDYixZQUFZO0lBQ1osT0FBTztJQUNQLFFBQVE7SUFDUixhQUFhO0dBQ2QiLCJmaWxlIjoiYXBwL2FjY291bnQvbG9naW4vbG9naW4uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImhlYWRlci5tYXN0aGVhZCB7XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQzYTQwO1xyXG4gICAgYmFja2dyb3VuZDogdXJsKFwiLi4vLi4vLi4vYXNzZXRzL2ltZy9iZy9jb2ZmZWUuanBnXCIpIG5vLXJlcGVhdCBjZW50ZXIgY2VudGVyO1xyXG4gICAgLXdlYmtpdC1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgLW1vei1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xyXG4gICAgLW8tYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgICBwYWRkaW5nLXRvcDogN3JlbTtcclxuICAgIHBhZGRpbmctYm90dG9tOiA3cmVtO1xyXG4gICAgaGVpZ2h0OiBjYWxjKDEwMHZoKTtcclxuICB9XHJcbiAgXHJcbiAgaGVhZGVyLm1hc3RoZWFkIC5vdmVybGF5IHtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDAwMDA7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIHRvcDogMDtcclxuICAgIGxlZnQ6IDA7XHJcbiAgICBvcGFjaXR5OiAwLjY7XHJcbiAgfSJdfQ== */"
 
 /***/ }),
 
@@ -231,7 +231,7 @@ var LoginComponent = /** @class */ (function () {
                     setTimeout(function () {
                         _this.router.navigate(['/software']);
                         _this.toastr.success(data[1], 'Success');
-                    }, 300);
+                    }, 100);
                 }
                 else {
                     _this.toastr.error(data[1], 'Error');
@@ -307,6 +307,7 @@ var LoginService = /** @class */ (function () {
             localStorage.setItem('token_type', response["token_type"]);
             localStorage.setItem('username', response["userName"]);
             _this.getUserRights(response["userName"]);
+            _this.getUserGroup(response["userName"]);
             _this.loginSource.next([true, "Login Successful."]);
         }, function (error) {
             _this.loginSource.next([false, error["error"].error_description]);
@@ -341,6 +342,20 @@ var LoginService = /** @class */ (function () {
                 }
             }
             localStorage.setItem('userRights', JSON.stringify(userRights));
+        });
+    };
+    LoginService.prototype.getUserGroup = function (username) {
+        var url = this.defaultAPIHostURL + '/token';
+        var options = {
+            headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpHeaders"]({
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + localStorage.getItem('access_token')
+            })
+        };
+        var userGroup;
+        this.httpClient.get(this.defaultAPIHostURL + "/api/crm/user/userGroup/" + username, options).subscribe(function (response) {
+            var result = response;
+            localStorage.setItem('userGroup', result.toString());
         });
     };
     LoginService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
