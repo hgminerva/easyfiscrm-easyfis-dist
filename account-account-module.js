@@ -356,6 +356,7 @@ var LoginService = /** @class */ (function () {
         this.httpClient.get(this.defaultAPIHostURL + "/api/crm/user/userGroup/" + username, options).subscribe(function (response) {
             var result = response;
             localStorage.setItem('userGroup', result.toString());
+            console.log(response);
         });
     };
     LoginService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
