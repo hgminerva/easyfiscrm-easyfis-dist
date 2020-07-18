@@ -65,7 +65,8 @@ var routes = [
     { path: '', loadChildren: './account/account.module#AccountModule' },
     { path: 'landing', loadChildren: './landing/landing.module#LandingModule' },
     { path: 'account', loadChildren: './account/account.module#AccountModule' },
-    { path: 'software', loadChildren: './software/software.module#SoftwareModule' }
+    { path: 'software', loadChildren: './software/software.module#SoftwareModule' },
+    { path: 'software', loadChildren: './account/account.module#AccountModule' }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
