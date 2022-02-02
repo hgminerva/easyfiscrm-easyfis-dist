@@ -721,11 +721,11 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Github_Repo\easyfiscrm-ui\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
-__webpack_require__(/*! D:\Github_Repo\easyfiscrm-ui\node_modules\font-awesome\css\font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
-__webpack_require__(/*! D:\Github_Repo\easyfiscrm-ui\node_modules\ngx-toastr\toastr.css */"./node_modules/ngx-toastr/toastr.css");
-__webpack_require__(/*! D:\Github_Repo\easyfiscrm-ui\node_modules\wijmo\styles\wijmo.css */"./node_modules/wijmo/styles/wijmo.css");
-module.exports = __webpack_require__(/*! D:\Github_Repo\easyfiscrm-ui\src\styles.css */"./src/styles.css");
+__webpack_require__(/*! C:\Users\eganp\source\repos\easyfiscrm-ui\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+__webpack_require__(/*! C:\Users\eganp\source\repos\easyfiscrm-ui\node_modules\font-awesome\css\font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
+__webpack_require__(/*! C:\Users\eganp\source\repos\easyfiscrm-ui\node_modules\ngx-toastr\toastr.css */"./node_modules/ngx-toastr/toastr.css");
+__webpack_require__(/*! C:\Users\eganp\source\repos\easyfiscrm-ui\node_modules\wijmo\styles\wijmo.css */"./node_modules/wijmo/styles/wijmo.css");
+module.exports = __webpack_require__(/*! C:\Users\eganp\source\repos\easyfiscrm-ui\src\styles.css */"./src/styles.css");
 
 
 /***/ })
